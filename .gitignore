@@ -3,3 +3,9 @@ dist/
 .env*
 .DS_Store
 package-lock.json
+
+# Internal documentation and prompts
+ANTIGRAVITY_PROMPT*.md
+APP_LAYOUT.md
+DESIGN_GUIDELINES.md
+TECH_STACK.md
