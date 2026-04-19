@@ -16,7 +16,7 @@ Here is how you can use and explore the Smart Venue Orchestrator:
 
 ### 🛡️ For Admins (Operations Team)
 1. On the landing page, click on **"Admin Login &rarr;"** under the *"Operations Team"* section.
-2. Enter the password **`venue2025`** and click Login.
+2. Enter the password **`admin123`** and click Login.
 3. You are now in the Admin Control Centre. Review the **Dashboard** for a high-level overview of attendees, active zones, and overall status.
 4. Use the sidebar to navigate through specialized views: **Heat Map**, **Intent Map**, **CCTV**, and **Incidents**.
 5. **Pro Tip:** Ensure the Simulation Engine is running (status indicator at the top right of the screen) to see live data updates and attendee movements. You can start/pause it from the Landing Page footer or the Admin Simulation panel.

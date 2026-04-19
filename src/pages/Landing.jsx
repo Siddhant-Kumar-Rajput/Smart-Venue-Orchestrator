@@ -13,7 +13,7 @@ export default function Landing() {
 
   const handleAdminLogin = (e) => {
     e.preventDefault();
-    if (password === 'venue2025') {
+    if (password === 'admin123') {
       dispatch({ type: 'ADMIN_LOGIN' });
       navigate('/admin');
     } else {
@@ -127,7 +127,7 @@ export default function Landing() {
                   <h4 className="text-xl font-semibold text-primary mb-3 flex items-center gap-2">🛡️ For Admins (Operations Team)</h4>
                   <ol className="list-decimal list-inside space-y-2 text-muted leading-relaxed">
                     <li>On this landing page, click on <strong>"Admin Login &rarr;"</strong> under the <em>"Operations Team"</em> section.</li>
-                    <li>Enter the password <strong><code>venue2025</code></strong> and click Login.</li>
+                    <li>Enter the password <strong><code>admin123</code></strong> and click Login.</li>
                     <li>You are now in the Admin Control Centre. Review the <strong>Dashboard</strong> for a high-level overview of attendees, active zones, and overall status.</li>
                     <li>Use the sidebar to navigate through specialized views: <strong>Heat Map</strong>, <strong>Intent Map</strong>, <strong>CCTV</strong>, and <strong>Incidents</strong>.</li>
                     <li><strong>Pro Tip:</strong> Ensure the Simulation Engine is running (status indicator at the top right of the screen) to see live data updates and attendee movements. You can start/pause it from the Landing Page footer or the Admin Simulation panel.</li>
@@ -148,7 +148,7 @@ export default function Landing() {
         <div className="fixed inset-0 bg-base/90 backdrop-blur-sm z-50 flex items-center justify-center p-4">
            <form onSubmit={handleAdminLogin} className="bg-surface border border-border rounded-2xl w-full max-w-sm p-6 shadow-2xl">
               <h3 className="font-bold text-xl text-primary mb-4">Admin Authentication</h3>
-              <p className="text-sm text-muted mb-4">Please enter the operations password to proceed. (Password: venue2025)</p>
+              <p className="text-sm text-muted mb-4">Please enter the operations password to proceed. (Password: admin123)</p>
               <input 
                 type="password" 
                 autoFocus
